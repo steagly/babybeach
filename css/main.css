@@ -1115,6 +1115,10 @@ section h2{
         align-items: center;
         flex-direction: column-reverse;
     }
+
+    .about-cafe h1::after {
+        content: none !important;
+    }
 }
 
 @media (max-width: 710px) {
