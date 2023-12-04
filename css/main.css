@@ -733,6 +733,7 @@ section h2{
 }
 
 .faq{
+    display: none;
     margin-top: 160px;
 }
 
@@ -1122,7 +1123,26 @@ section h2{
 }
 
 @media (max-width: 710px) {
+    .main__cards {
+        margin-top: 230px;
+    }
+
     .about-cafe_advantages {
         flex-direction: column;
+    }
+
+    .price__card-item {
+        display: block;
+    }
+
+    .price__card-title{
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 280px;
+    }
+
+    .about .boy{
+        left: 0px;
+        bottom: 196px;
     }
 }
