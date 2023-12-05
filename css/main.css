@@ -875,12 +875,17 @@ section h2{
 .exemple1 {
     position: absolute;
     overflow: hidden;
+    cursor: pointer;
     width: 100%;
     max-height: 0;
     background-color: #FFF;
     z-index: 2;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
     transition: max-height 0.5s;
+  }
+
+.exemple1.slide {
+    max-height: 100px;
   }
 
 .exemple1 p{
@@ -896,11 +901,6 @@ section h2{
 
 .main__card:last-child{
     display: block;
-}
-
-.advantages-container:hover .exemple1{
-    max-height: 100px;
-    transition: max-height 0.5s;
 }
 
 .advantages-container:hover .advantages-item{
